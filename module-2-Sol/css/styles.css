@@ -1,10 +1,13 @@
 h1 {
 	text-align: center;
 	color: black;
+	padding-top: 30px;
+	padding-bottom: 50px;
 }
 p {
 	width: 90%
 	margin-right: 10px;
+	margin-left: 10px;
 	padding: 10px;
 }
 .row {
@@ -13,21 +16,29 @@ p {
 * {
 	box-sizing: :border-box;
 }
+.col1,.col2,.col3{
+	border: 1px solid black;
+	float: right;	
+}
 .col1{
 	background-color: #8a8780;
-	border: 1px solid black;
+
 }
 .col2{
 	background-color: #8a8780;
-	border: 1px solid black;
+
 }
 .col3{
 	background-color: #8a8780;
+}
+#section1,#section2,#section3 {
+	width: 150px;
+	text-align: center;
+	float: right;
 	border: 1px solid black;
 }
 #section1{
-	background-color: #bd5e5e
-
+	background-color: #bd5e5e;
 }
 #section2{
 	background-color: #942929;
@@ -35,3 +46,29 @@ p {
 #section3{
 	background-color: #e8c77b;
 }
+
+@media (min-width: 992px) {
+  .col1, .col2, .col3{
+    width:31%;
+    margin: 1%;
+    padding: 1%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px){
+  .col1, .col2{
+    width: 48%;
+    margin: 1%;
+    padding: 1%;
+  }
+  .col3{
+    width: 98%;
+    margin: 1%;
+    padding: 1%;
+  }
+}
+@media (max-width: 787px) {
+  .col1, .col2, .col3{
+    width: 94%;
+    margin: 3%;
+    padding: 1%;
+  }
