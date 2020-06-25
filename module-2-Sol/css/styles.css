@@ -2,7 +2,7 @@
 	text-align: center;
 	color: black;
 	padding-top: 30px;
-	padding-bottom: 70px;
+	padding-bottom: 50px;
 }
 
 .row {
@@ -68,12 +68,12 @@
 	.box2 {
 		width: 48%;
 		margin: 1%;
-		padding: 1%;
+		padding: 1.5%;
 	}
 	.box3 {
 		width: 98%;
 		margin: 1%;
-		padding: 1%;
+		padding: 1.5%;
 	}
 }
 
@@ -83,5 +83,5 @@
 	.box3 {
 		width: 94%;
 		margin: 3%;
-		padding: 1%;
+		padding: 2%;
 	}
