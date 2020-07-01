@@ -3,9 +3,8 @@
 	font-weight: bold;
 }
 
-
 .row {
-	width: 100%;
+  margin-bottom: 15px;
 }
 
 #head1,
@@ -13,19 +12,6 @@
 #head3 {
 	text-align: center;
 }
-
-.box1,
-.box2,
-.box3 {
-	background-color: grey;
-	text-align: justify;
-	border: 1px black solid;
-	box-sizing: border-box;
-	position: relative;
-	float: left;
-	box-sizing: border-box;
-}
-
-.content1,.content2,.content3{
-	padding: 9px;
+.row > div {
+  background-color: gray;
 }
