@@ -1,15 +1,14 @@
 (function (window) {
 
-var names = ["hpnightowl", "John", "Jonny", "", "Yes", "jack", "Eating", "Sugar", "No", "Jack"];
-
-for (var i in names) {
+var names = ["hpnightowl", "John", "Jonny", "Anonymous", "Yes", "jack", "Eating", "Sugar", "No", "Jack"];
+for (var i = 0; i < names.length; i++) {
 
   var firstLetter = ((names[i]).charAt(0)).toLowerCase();
 
-  if (firstLetter == 'J' || firstLetter == 'j') {
-       console.log("Hello" + " " + name);
+  if (firstLetter == 'j') {
+     window.byeSpeaker.speak(names[i]);
   } else {
-       console.log("Goodbye" + " " + name)
+     window.helloSpeaker.speak(names[i]);
   }
 }
 })(window);
